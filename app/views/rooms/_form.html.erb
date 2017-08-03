@@ -27,7 +27,7 @@
         </div>
 
         <div class="form-group">
-          <%= f.number_field :price_per_night, class: 'form-control input-lg', placeholder: "Costo por noche" %>
+          <%= f.number_field :price_per_night, :step => "0.01", class: 'form-control input-lg', placeholder: "Costo por noche" %>
         </div>
 
 
